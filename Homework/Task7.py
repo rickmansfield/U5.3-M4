@@ -3,37 +3,37 @@ NOTE NOTE NOTE
 The solutin starts on line 39
 the code before it makes it work in VSCode
 """
-class minimumDepthBinaryTree:
+class binaryTreeInOrderTraversal:
     def __init__(self, value=0, left=None, right=None):
         self.value = value
         self.left = left
         self.right = right
 
-# r = minimumDepthBinaryTree(5)
-# r.left = minimumDepthBinaryTree(12)
-# r.right = minimumDepthBinaryTree(32)
-# r.right.left = minimumDepthBinaryTree(8)
-# r.right.right = minimumDepthBinaryTree(4)
+# r = binaryTreeInOrderTraversal(5)
+# r.left = binaryTreeInOrderTraversal(12)
+# r.right = binaryTreeInOrderTraversal(32)
+# r.right.left = binaryTreeInOrderTraversal(8)
+# r.right.right = binaryTreeInOrderTraversal(4)
 
-# r = minimumDepthBinaryTree(5)
-# r.left = minimumDepthBinaryTree(10)
-# r.right = minimumDepthBinaryTree(25)
-# r.right.left = minimumDepthBinaryTree(12)
-# r.right.right = minimumDepthBinaryTree(3)
+# r = binaryTreeInOrderTraversal(5)
+# r.left = binaryTreeInOrderTraversal(10)
+# r.right = binaryTreeInOrderTraversal(25)
+# r.right.left = binaryTreeInOrderTraversal(12)
+# r.right.right = binaryTreeInOrderTraversal(3)
 
-# r = minimumDepthBinaryTree(5)
-# r.left = minimumDepthBinaryTree(6)
-# r.right = minimumDepthBinaryTree(6)
-# r.left.left = minimumDepthBinaryTree(7)
-# r.left.right = minimumDepthBinaryTree(7)
-# r.left.left.left = minimumDepthBinaryTree(8)
-# r.left.left.right = minimumDepthBinaryTree(8)
+# r = binaryTreeInOrderTraversal(5)
+# r.left = binaryTreeInOrderTraversal(6)
+# r.right = binaryTreeInOrderTraversal(6)
+# r.left.left = binaryTreeInOrderTraversal(7)
+# r.left.right = binaryTreeInOrderTraversal(7)
+# r.left.left.left = binaryTreeInOrderTraversal(8)
+# r.left.left.right = binaryTreeInOrderTraversal(8)
 
-r = minimumDepthBinaryTree(5)
-r.left = minimumDepthBinaryTree(7)
-r.right = minimumDepthBinaryTree(22)
-r.right.left = minimumDepthBinaryTree(17)
-r.right.right = minimumDepthBinaryTree(9)
+r = binaryTreeInOrderTraversal(5)
+r.left = binaryTreeInOrderTraversal(7)
+r.right = binaryTreeInOrderTraversal(22)
+r.right.left = binaryTreeInOrderTraversal(17)
+r.right.right = binaryTreeInOrderTraversal(9)
 
 def binaryTreeInOrderTraversal(root):
     pass
