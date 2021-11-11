@@ -1,7 +1,7 @@
 # Unit 5.3 M4 Lecture CS49 Nov 11, 2021
 
 ## [CoLab Link](https://colab.research.google.com/drive/1MGmiiBsb8sdqmOYZ8QH42ccMqh-wTmd4?usp=sharing)
-## [Video Link]()
+## [Video Link](https://www.youtube.com/watch?v=2DwNKj6sMf8)
 
 ## Today's Topics
 

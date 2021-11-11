@@ -29,14 +29,22 @@ class binaryTreeInOrderTraversal:
 # r.left.left.left = binaryTreeInOrderTraversal(8)
 # r.left.left.right = binaryTreeInOrderTraversal(8)
 
-r = binaryTreeInOrderTraversal(5)
-r.left = binaryTreeInOrderTraversal(7)
-r.right = binaryTreeInOrderTraversal(22)
-r.right.left = binaryTreeInOrderTraversal(17)
-r.right.right = binaryTreeInOrderTraversal(9)
+# r = binaryTreeInOrderTraversal(5)
+# r.left = binaryTreeInOrderTraversal(7)
+# r.right = binaryTreeInOrderTraversal(22)
+# r.right.left = binaryTreeInOrderTraversal(17)
+# r.right.right = binaryTreeInOrderTraversal(9)
 
-def binaryTreeInOrderTraversal(root):
-    pass
+def binaryTreeInOrderTraversal(root, results=None):
+    if results == None:
+        results = []
+    if root is None:
+        return
+    binaryTreeInOrderTraversal(root.left, results)
+    results.append(root.value)
+    binaryTreeInOrderTraversal(root.right, results)
+    
+    return results 
     
 
-print(binaryTreeInOrderTraversal(r))
+# print(binaryTreeInOrderTraversal(r))
