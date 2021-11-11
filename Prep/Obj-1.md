@@ -9,16 +9,16 @@
 
 - Depth-First
    - Preorder
-      1. Visit the node
+      1. Visit the node (do something)
       2. Go to the left subtree
       3. Go to the right subtree
    - Inorder
       1. Go to the left subtree
-      2. Visit node
+      2. Visit node (do something)
       3. Go to the right subtree
     - Postorder
       1. Go to the left subtree
       2. Go to the right subtree
-      3. Visit node
+      3. Visit node (do something)
    
 - Breadth-First
